@@ -1,0 +1,130 @@
+.login-container {
+    display: flex;
+    height: 75vh;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f7f7f7;
+    padding: 0 20px;
+  }
+  
+  .login-card {
+    width: 400px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+  }
+  
+  .login-title {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .input-group input[type="text"],
+  .input-group input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .input-group input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .help-link {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  .help-link a {
+    color: #0073bb;
+    font-size: 12px;
+    text-decoration: none;
+  }
+  
+  .signin-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .signin-root-button {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    color: #0073bb;
+    border: 1px solid #0073bb;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .remember {
+    font-size: 12px;
+  }
+  
+  .remember input {
+    margin-right: 5px;
+  }
+  
+  .side-banner {
+    max-width: 600px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .side-banner h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .side-banner p {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .learn-more-button {
+    padding: 10px 20px;
+    background-color: #0073bb;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .robot {
+    background-image: url('C:\Users\rahul\OneDrive\Desktop\Final Year Project\petsforum\src\Demoimg2.jpg');
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .login-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('C:\Users\rahul\OneDrive\Desktop\Final Year Project\petsforum\src\DemoImg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
